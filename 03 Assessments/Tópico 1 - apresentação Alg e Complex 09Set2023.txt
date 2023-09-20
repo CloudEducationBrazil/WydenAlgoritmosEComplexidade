@@ -1,0 +1,19 @@
+Barema: Prazo, apresentação PPT, tempo apresentação 10min a 15min, Conteúdo: Tópico da pesquisa
+Nota: 2,5
+
+1. Ariel (2,2)
+Algoritmos e Funções
+Prazo ok; PPT ok; Apresent ok; Tempo ok
+
+2. Gabriel (não) péssimo só fala
+Contextualização do tópico 1
+Prazo não; PPT não; Apresent não; Tempo não
+
+3. Mario (2,3) 
+Estrutura de Dados
+Prazo ; PPT ; Apresent ; Tempo 
+
+4. Jonatas (2,3) 
+Complexidade - Notação Big O
+Prazo ; PPT ; Apresent ; Tempo 
+
