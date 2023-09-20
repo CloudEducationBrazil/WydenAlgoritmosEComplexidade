@@ -1,3 +1,6 @@
+Barema: Prazo, apresentação PPT, tempo apresentação 10min a 15min, Conteúdo: Tópico da pesquisa
+Nota: 2,5
+
 2.   RECURSIVIDADE
 2.0 - Contextualização - Ariel
 2.1 DEFINIÇÕES RECURSIVAS - Mario
