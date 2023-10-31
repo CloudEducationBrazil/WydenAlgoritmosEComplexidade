@@ -2,8 +2,18 @@ Barema: Prazo, apresentação PPT, tempo apresentação 10min a 15min, Conteúdo
 Nota: 2,5
 
 2.   RECURSIVIDADE
-2.0 - Contextualização - Ariel
-2.1 DEFINIÇÕES RECURSIVAS - Mario
-2.2 COMO IMPLEMENTAR RECURSIVIDADE - 2.2
-2.3 DESENVOLVENDO ALGORITMOS COM RECURSIVIDADE - Gabriel
-2.4 QUANDO NÃO USAR RECURSIVIDADE - Leonardo
+2.0 - Contextualização - Ariel 2,5
+Prazo ok; PPT ok; Apresent ok; Tempo ok
+
+2.1 DEFINIÇÕES RECURSIVAS - Mario - 2,4
+Prazo ok; PPT - melhorar o slide; Apresent ok; Tempo ok
+
+2.2 COMO IMPLEMENTAR RECURSIVIDADE - Jonatas 2,5
+Prazo ok; PPT ok; Apresent ok; Tempo ok
+
+2.3 DESENVOLVENDO ALGORITMOS COM RECURSIVIDADE - Gabriel - 2,3
+Prazo ok; PPT ok; Apresent problema de compart. Teams Web; Tempo ok
+
+2.4 QUANDO NÃO USAR RECURSIVIDADE - Leonardo - 2,1
+Prazo ok; PPT ok; Apresent 2M 3min; Tempo ok
+

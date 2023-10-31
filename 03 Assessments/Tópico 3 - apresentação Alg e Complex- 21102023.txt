@@ -1,8 +1,11 @@
 Barema: Prazo, apresentação PPT, tempo apresentação 10min a 15min, Conteúdo: Tópico da pesquisa
 Nota: 2,5
 
-3.   ALGORITMOS DE ORDENAÇÃO AVANÇADOS
-3.1 ANÁLISE DOS ALGORITMOS DE ORDENAÇÃO ELEMENTARES
-3.1 ORDENAÇÃO POR INTERCALAÇÃO (MERGESORT)
-3.2 ORDENAÇÃO RÁPIDA (QUICKSORT)
-3.4 ORDENAÇÃO SHELLSORT
+3.   ALGORITMOS DE ORDENAÇÃO AVANÇADOS - Ariel 2,5
+Prazo ok; PPT ok; Apresent ok; Tempo ok
+3.1 ANÁLISE DOS ALGORITMOS DE ORDENAÇÃO ELEMENTARES - Mario - 2,5
+Prazo ok; PPT ok; Apresent ok; Tempo ok
+3.2 ORDENAÇÃO POR INTERCALAÇÃO (MERGESORT) - Gabriel - ???
+3.3 ORDENAÇÃO RÁPIDA (QUICKSORT) - Leonardo - 2,5
+Prazo ok; PPT ok; Apresent ok; Tempo ok - ???
+3.4 ORDENAÇÃO SHELLSORT - Jonatas
