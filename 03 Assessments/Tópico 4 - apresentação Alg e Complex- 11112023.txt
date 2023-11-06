@@ -2,12 +2,22 @@ Barema: Prazo, apresentação PPT, tempo apresentação 10min a 15min, Conteúdo
 Nota: 2,5
 
 4.   ALGORITMOS EM ÁRVORES BINÁRIA E ÁRVORE AVL - Ariel
+Prazo ok; PPT ok; Apresent ok; Tempo ok
+
+
 4.1 ARVORE BINÁRIA DE BUSCA: BUSCA, INSERÇÃO E REMOÇÃO COM ANÁLISE DE
 COMPLEXIDADE - Mario
+Prazo ok; PPT ok; Apresent ok; Tempo ok
+
 4.2 PERCURSO EM ÁRVORES BINÁRIA: ALGORITMOS DOS PERCURSOS EM ORDEM, PÓSORDEM E PRÉ­ORDEM COM RECURSIVIDADE E ANÁLISE DE COMPLEXIDADE - Jonatas
+Prazo ok; PPT ok; Apresent ok; Tempo ok
+
 4.3 BALANCEAMENTO DE ÁRVORE: CONCEITOS E ALGORITMO DSW E ANÁLISE DE
 COMPLEXIDADE - Gabriel
+Prazo ok; PPT ok; Apresent ok; Tempo ok
+
 4.4 ÁRVORE AVL: CONCEITOS, PROPRIEDADES E ANÁLISE DE COMPLEXIDADE - Leonardo
+Prazo ok; PPT ok; Apresent ok; Tempo ok
 
 
 5.   ALGORITMOS EM GRAFOS (ATIVIDADE PRÁTICA SUPERVISIONADA) - Gabriel
