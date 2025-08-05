@@ -1,0 +1,15 @@
+class IntWrapper {
+    int value;
+}
+
+public class Main {
+    public static void main(String[] args) {
+        IntWrapper a = new IntWrapper();
+        a.value = 5;
+
+        IntWrapper b = a; // b "aponta" para o mesmo objeto que a
+        b.value = 13;     // modificando b.value, também afeta a.value
+
+        System.out.println("Valor de a: " + a.value);  // Saída: 13
+    }
+}
