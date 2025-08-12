@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void Quadrado(int n, int *resultado) {
+    *resultado = n * n;
+}
+
+int main()
+{
+    int n, quadrado;
+    printf("Informe um número:"); scanf("%d", &n);
+    Quadrado(n, &quadrado);
+    printf("Quadrado de %d é %d:", n, quadrado);
+    
+    return 0;
+}

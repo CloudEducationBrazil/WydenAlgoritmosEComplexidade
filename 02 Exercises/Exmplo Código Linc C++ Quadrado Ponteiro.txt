@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+void Quadrado(int n, int &resultado){
+    resultado = n * n;
+}
+
+int main()
+{
+    int n, quadrado;
+    cout<< "Informe um número: "; 
+    cin>> n;
+    Quadrado(n, quadrado);
+    cout<< "Quadrado de " << n << " é " << quadrado << endl;
+    
+    return 0;
+}
