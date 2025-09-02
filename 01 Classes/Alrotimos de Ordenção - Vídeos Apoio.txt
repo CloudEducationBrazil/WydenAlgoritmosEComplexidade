@@ -1,0 +1,17 @@
+Selection Sort
+https://youtu.be/ZT_dT8yn48s?list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC
+
+-- Bubble Sort
+https://youtu.be/GiNPe_678Ms?list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC
+
+-- Insertion Sort
+https://youtu.be/S5no2qT8_xg?list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC
+
+-- Merge Sort
+https://youtu.be/5prE6Mz8Vh0?list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC
+
+-- Quick Sort
+https://youtu.be/wx5juM9bbFo?list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC
+
+-- Complexidade
+https://youtu.be/v50wSxxlit0?list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC
