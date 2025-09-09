@@ -1,0 +1,18 @@
+Comparar ordens de crescimento, do menor para o maior:
+
+
+O(1) → f6(n).
+
+O(log n) → f7(n), f8(n).
+
+O(n) → f1(n).
+
+O(n log n) → f2(n).
+
+O(n²) → f5(n).
+
+O(n³) → f9(n).
+
+O(n⁵) → f3(n).
+
+O(2ⁿ) → f4(n)
