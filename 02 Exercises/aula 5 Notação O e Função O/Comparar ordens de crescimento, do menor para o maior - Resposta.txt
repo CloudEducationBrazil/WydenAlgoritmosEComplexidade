@@ -1,13 +1,18 @@
 Comparar ordens de crescimento, do menor para o maior:
 
+Resposta: O(1) < O(log2 n) = O(log2 n²) < O(n) < O(n log2 n) < O(n²) < O(n³) < O(n⁵) < O(2ⁿ)
+
+Nota: log2 n² => 2(log2 n)
+
+============================================================
 
 O(1) → f6(n).
 
-O(log n) → f7(n), f8(n).
+O(log2 n) → f7(n), f8(n).
 
 O(n) → f1(n).
 
-O(n log n) → f2(n).
+O(n log2 n) → f2(n).
 
 O(n²) → f5(n).
 

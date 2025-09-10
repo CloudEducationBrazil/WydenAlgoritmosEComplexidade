@@ -1,10 +1,10 @@
 Comparar ordens de crescimento, do menor para o maior:
 
 O(2ⁿ)
-O(log n)
+O(log2 n)
 O(1)
 O(n²)
 O(n³)
 O(n)
 O(n⁵)
-O(n log n)
+O(n log2 n)

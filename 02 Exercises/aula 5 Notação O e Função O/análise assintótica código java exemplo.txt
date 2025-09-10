@@ -1,0 +1,8 @@
+int x = 5;
+int soma = 0;
+int n = 555;
+while (x != n ) {
+    soma += x;
+    x += 5;
+}
+System.out.println(soma);
