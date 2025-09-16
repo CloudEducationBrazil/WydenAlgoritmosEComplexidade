@@ -1,0 +1,9 @@
+Scanner ler = new Scanner(System.in);
+int x = 5;
+int soma = 0;
+int n = ler.nextInt();
+while (x != n ) {
+    soma += x;
+    x += 5;
+}
+System.out.println(soma);
