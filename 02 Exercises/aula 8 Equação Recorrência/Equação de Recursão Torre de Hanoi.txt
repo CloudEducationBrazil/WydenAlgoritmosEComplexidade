@@ -1,0 +1,15 @@
+Mover uma pilha de n discos de um pino fonte para um pino destino, usando um pino auxiliar, movendo apenas um disco por vez e nunca colocando disco maior sobre disco menor. Queremos o número mínimo de movimentos T(n).
+
+Para mover n discos: 
+
+Mover os n−1 discos superiores do pino fonte para o pino auxiliar: isso custa T(n−1) movimentos.
+
+Mover o maior disco (o de baixo) do fonte para o destino: 1 movimento.
+
+Mover os n−1 discos do auxiliar para o destino: mais T(n−1) movimentos.
+
+Portanto: T(n)=T(n−1)+1+T(n−1)=2T(n−1)+1, para n≥1,
+
+com condição inicial T(0)=0 (nenhum disco, nenhum movimento) — alternativamente T(1)=1.
+
+Dedução da recorrência, resolução analítica (forma fechada), prova por indução da fórmula e algoritmo recursivo simples (com complexidade).
