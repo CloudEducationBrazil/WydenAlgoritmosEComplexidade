@@ -1,0 +1,86 @@
+Pseudo solução: A7; A2; A4; A5.
+
+==========================================================================
+
+1) A estratégia gulosa sempre gera o melhor resultado?
+
+	Depende da regra gulosa.
+
+	Sim (garantido) se a regra gulosa for “escolher a atividade com o menor tempo de término (earliest finish time)” e o problema for o clássico não ponderado (cada atividade tem igual valor — objetivo: maximizar o número de atividades compatíveis). Neste caso essa estratégia é ótima.
+
+	Razão (esboço de prova — exchange argument): escolha a atividade que termina primeiro; em qualquer solução ótima existe uma atividade que termina no mínimo tão tarde quanto a que escolhemos; trocando-a pela nossa escolha não diminui o número de atividades e mantém compatibilidade — repetindo isso provamos que a solução gulosa atinge um ótimo.
+
+	Não se a sua regra gulosa for outra (ex.: escolher a que começa mais cedo, escolher a de menor duração, escolher por maior “razão valor/duração”, etc.) — essas regras podem falhar mesmo no problema não ponderado.
+
+==========================================================================
+
+2) Que outra estratégia vocês poderiam tentar?
+
+Principais alternativas:
+
+- Força bruta / backtracking
+
+	Testar todas as combinações compatíveis. Garante ótimo, mas custo exponencial O(2^n) — impraticável para n grande.
+
+- Programação dinâmica (DP)
+
+	Útil se n moderado e quiser evitar explorar todo espaço; pode ser mais eficiente que força bruta em instâncias reais.
+
+- Algoritmo guloso (earliest finish)
+
+	Ordena por término e varre, selecionando compatíveis — simples e ótimo (sem pesos).
+
+==========================================================================
+
+3) Em quais casos o método guloso poderia falhar? (exemplos concretos)
+
+a) Quando a regra gulosa NÃO é earliest finish - não é solução ótima
+
+Greedy por início mais cedo (earliest start - inicio mais cedo) — falha:
+
+Exemplo:
+
+A1 = [0, 6]
+A2 = [1, 2]
+A3 = [2, 3]
+A4 = [3, 4]
+
+Greedy por início escolhe A1 ([0,6]) e termina com 1 atividade; solução ótima é {A2, A3, A4} com 3 atividades.
+
+	Escolher sempre menor duração pode funcionar aqui — mas existem arranjos onde escolher uma pequena atividade que bloqueia muitas outras leva a solução subótima. Em geral, duração isolada não é critério correto.
+
+==========================================================================
+
+4) O tempo de execução é eficiente comparado a tentar todas as combinações?
+
+Sim — muito mais eficiente:
+
+Guloso (ordenar por término + varredura):
+
+Ordenação:  O(nlogn) (por término).
+
+Varredura/seleção: O(n).
+
+Total:  O(nlogn) e espaço O(1) extra (ou O(n) se armazenar lista).
+
+Força bruta: O(2^n) combinações (ou O(n2^n) se checar compatibilidade por combinação). Exponencial — impraticável para n grande (p.ex. n>30 já ruim).
+
+DP ponderado (com binary search): O(nlogn). Assim, para o caso ponderado existem algoritmos quase tão eficientes quanto o greedy, mas usam DP e busca binária.
+
+Portanto, para o problema clássico (sem pesos), o guloso por término é o melhor em eficiência e também ótimo. Só é preciso ordenar por término corretamente.
+
+==========================================================================
+
+5) Pseudocódigo (estratégia gulosa correta — earliest finish)
+
+Entrada: lista de atividades A, cada uma com (start_i, finish_i)
+
+1. Ordenar A por finish_i crescente.
+2. Selecionados = []
+3. last_finish = -∞
+4. Para cada atividade a em A (na ordem):
+     se a.start >= last_finish:
+         adicionar a em Selecionados
+         last_finish = a.finish
+
+Complexidade: O(nlogn) (pela ordenação) + O(n) (varredura).
