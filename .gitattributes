@@ -1,0 +1,12 @@
+# === Arquivos binários: Git não deve tocar ===
+*.zip  binary
+*.pdf  binary
+*.ppt  binary
+*.pptx binary
+*.doc  binary
+*.docx binary
+*.xls  binary
+*.xlsx binary
+*.jar  binary
+*.dll  binary
+*.exe  binary
